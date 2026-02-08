@@ -19,10 +19,15 @@
 3. The system is ready for the next change.
 4. The programmer & their colleagues feel confident in the above points.
 #### Interface/Implementation Split
+- The first misunderstanding is that folks seem to lump all design together. There are two flavors:
+  - How a particular piece of behavior is invoked.
+  - How the system implements that behavior.
+- (When I was in school we called these logical & physical design & were told never to mix the two but nobody ever explained how. I had to figure that out later.)
+
+#### The Steps
 
 
 
-  
 
 
 
