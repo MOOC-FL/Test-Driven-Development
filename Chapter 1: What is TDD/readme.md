@@ -20,6 +20,7 @@
  3. REFRACTOR:
       - Improve the design of the code, without changing its behavior. Atone for your sins. Remove duplication. Improve names. Minimal code which passes the current tests. Make it look as if you knew all along what you were doing.
 > Repeat until there are no more tests to write or until bored.
+> If the current design makes it difficult to make a new test pass, consider commenting out the new test and refactoring first. "Make the change easy (warning: this may be hard), then make the easy change."
 
 
 
