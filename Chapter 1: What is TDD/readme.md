@@ -6,7 +6,11 @@
   3. Change the code to make the test (& all previous tests) pass (adding items to the list as you discover them)
   4. Optionally refactor to improve the implementation design
   5. Until the list is empty, go back to #2
-
+#### Three laws of TDD
+- TDD can also be defined in terms of these three rules:
+1. You shall not write any production code, unless required by a failing unit test.
+2. You shall not write more of a unit test, than is required to fail (assertion failure/program crash/compile error).
+3. You shall not write more production code, than is sufficient to make the one failing unit test pass.
 
 
 
