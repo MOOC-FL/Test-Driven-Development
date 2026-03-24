@@ -1,0 +1,6 @@
+#### London school of TDD
+- Mock objects were invented in a London meetup, and it gave birth to a mock-based outside-in approach to TDD, which is commonly called London style TDD. This is in contrast to Detroit/Chicago style TDD, where the code is typically written bottom-up and dependencies are faked only when they complicate testing (named such because Chrysler's C3 project, which gave birth to Extreme Programming, happened in Detroit). They are also known as mockist and classicist styles.
+- London style TDD focuses on the communication protocols between objects sending messages to each other. It goes hand-in-hand [1] with the original vision of object-oriented programming, by Alan Kay, where objects are like individual computers on the network sending messages to each other (in which sense Erlang is the most object-oriented programming language).
+
+- When using mock objects, it's important to understand the object-oriented style for which they were created. Otherwise, over-mocking may lead to tight coupling between tests and implementation details. The best description of how mock objects were meant to be used is the book Growing Object-Oriented Software, Guided by Tests (Steve Freeman, Nat Pryce 2009).
+
