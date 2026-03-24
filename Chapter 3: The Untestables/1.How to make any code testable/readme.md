@@ -23,5 +23,7 @@ Both techniques aim to solve the same problem: **isolating untestable code** (e.
 #### When to Use Which
 - **Parameter Injection** is often preferred for new code or when you want to make dependencies explicit and improve overall design (Dependency Injection principle).
 - **Extract and Override** is useful when you need to test legacy code quickly without modifying the public API, or when adding parameters would cause widespread changes across many callers.
+> Tests can then replace the untestable thing with a value object or a test double.
 
+* In a functional language without inheritance, you could extract the untestable code to a function and pass in the function as a parameter, or use dynamic binding.
  
