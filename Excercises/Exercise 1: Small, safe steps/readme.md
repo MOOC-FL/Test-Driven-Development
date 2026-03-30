@@ -1,4 +1,4 @@
-#### Exercise 1: Small, safe steps
+## Exercise 1: Small, safe steps
 > Here the goal is to learn fast feedback and making changes without breaking things. Both are essential skills for TDD.
 
 - Clone the project https://github.com/luontola/tdd-mooc-small-steps and follow its instructions.
