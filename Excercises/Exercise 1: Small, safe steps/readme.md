@@ -14,3 +14,9 @@
 #### What to submit
 - Submit this exercise as "part1". Provide a **Git repository** with the history of you doing this refactoring, so that the commits are **as small as possible** and all the tests **pass on every commit**.
 - Doing the **TCR challenge** is the simplest way to create such small commits.
+#### Effort Estimate
+- Minimum: 1 hours
+- Average: 3 hours
+> Doing the refactoring once takes ~10 minutes, but you should repeat it many times and practice different approaches.
+#### Reference solution
+There is no substitute to practise. The instructions listed two example refactoring strategies. Practise their mechanics until you can do them smoothly.
