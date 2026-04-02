@@ -4,3 +4,6 @@
   1.  Identify the place you need to change.
   2. Plan that where would be a good place to test it.
   3. Break dependencies which hinder testing. Without tests, you must introduce new seams using minimal, safe changes. The code quality may temporarily worsen.
+<p align="center">
+  <img src="https://github.com/MOOC-FL/Media/blob/main/Test%20Driven%20Development/French_seam.png" alt="">
+</p>
