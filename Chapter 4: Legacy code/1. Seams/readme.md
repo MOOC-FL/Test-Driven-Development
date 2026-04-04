@@ -7,3 +7,15 @@
 <p align="center">
   <img src="https://github.com/MOOC-FL/Media/blob/main/Test%20Driven%20Development/French_seam.png" alt="">
 </p>
+
+> As an example, the Extract and Override Call technique goes like this: Extract the difficult line of code to a new method. In tests, create a testable subclass which overrides the problematic method with a fake implementation. Write tests against that testable subclass.
+
+   4. Cover the code with characterization tests.
+   5. Do the change you originally wanted.
+   6. Refactor and make the code more testable.
+      
+#### A whole book has been written about this topic, so it doesn't need to be repeated here.
+<p align="center">
+  <img src="https://github.com/MOOC-FL/Media/blob/main/Test%20Driven%20Development/Strip-Garde-on-ne-sait-jamais-650-finalenglish.jpg" alt="">
+</p>
+
