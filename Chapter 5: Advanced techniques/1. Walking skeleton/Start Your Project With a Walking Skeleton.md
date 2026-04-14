@@ -13,4 +13,14 @@
 -  This is only the skeleton of the application, but the parts are connected and the skeleton does walk in the sense that it exercises all the system’s parts as you currently understand them. Because of this partial understanding, you must make the walking skeleton minimal. But it’s not a prototype and not a proof of concept — it’s production code, so you should definitely write tests as you work on it.
 
 #### High Risk First
-- 
+According to Hofstadter’s Law
+> “It always takes longer than you expect, even when you take into account Hofstadter’s Law”. 
+- This law is valid all too often. It makes sense than to work on the riskiest parts of the project first, which are usually the parts that have dependencies: on third-party services, on in-house services, on other groups in the organization you belong to.It makes sense to get the ball rolling with these groups simply because you don’t know how long it will take and what problems should arise.
+- Making changes to architecture is harder and more expensive the longer it has been around and the bigger it gets. We want to find mistakes early. This approach gives us a short feedback cycle, from which we can more quickly adapt and work iteratively as necessary to meet the business‘ prioritized list of runtime-discernable quality attributes. Assumptions about the architecture are validated earlier. The architecture is more easily evolved because problems are found at an earlier stage when less has been invested in its implementation.
+- The bigger the system, the more important it is to use this strategy. In a small application, one developer can implement a feature from top to bottom relatively quickly, but this becomes impractical with larger systems. It is quite common to have multiple developers on a single team or even on multiple, possibly distributed teams involved in implementing end-to-end. Consequently, more coordination is necessary.
+
+#### No Shortcuts
+- It’s important to stress that until the walking skeleton is deployed to production (possibly behind a feature flag or just hidden from the outside world) you are not ready to write the first acceptance test. You want to exercise your deployment and build scripts and discover as many potential problems as you can as early as possible.
+-  The Walking Skeleton is a way to validate the architecture and get early feedback so that it can be improved. You will be missing this feedback if you cut corners or take shortcuts.
+> **In a nutshell: Start with a Walking Skeleton, keep it running, and grow it incrementally.**
+
