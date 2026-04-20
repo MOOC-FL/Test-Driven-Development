@@ -6,6 +6,10 @@
 
 > A/B testing, or split testing, is a randomized experimentation method that compares two versions of a digital asset—a webpage, app, or email—to determine which performs better. By directing traffic to version A (control) and version B (variant), businesses use statistical analysis to identify the most effective version to boost conversions and engagement.
 
+<p align="center">
+  <img src="https://github.com/MOOC-FL/Media/blob/main/Test%20Driven%20Development/A-B_testing_example.png" alt="">
+</p>
+
 ### 1. Core Methodology & Goals
 | Aspect | Description |
 | :--- | :--- |
